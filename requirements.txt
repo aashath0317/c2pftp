@@ -22,3 +22,4 @@ speedtest-cli
 tgcrypto
 urllib3
 yt-dlp
+wget
