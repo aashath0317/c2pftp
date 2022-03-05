@@ -9,10 +9,10 @@ jobs:
       - uses: actions/checkout@v2
       - uses: akhileshns/heroku-deploy@v3.12.12
         with:
-          heroku_api_key: e378e345-7ff4-4e4d-901c-7e729538d6ac
+          heroku_api_key: 4e1b3f3a-ae38-482d-89ca-08a2bb939a4b
           heroku_app_name: c2pftp
-          heroku_email: mallika4@hphasesw.com
+          heroku_email: ftpbot@c2ptech.com
           usedocker: true
           docker_heroku_process_type: worker
           stack: "container"
-          region: "eu"
+          region: "us"
